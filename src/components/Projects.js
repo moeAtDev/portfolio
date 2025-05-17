@@ -14,7 +14,7 @@ const projects = [
       'Debugged and optimized backend queries for high performance.'
     ],
     icon: <MapPin className="text-indigo-400 w-6 h-6" />,
-    image: '/images/telecom.png',
+    image: `${process.env.PUBLIC_URL}/images/telecom.png`,
   },
   {
     title: 'E-Commerce Web & Mobile App',
@@ -27,7 +27,7 @@ const projects = [
       'Ensured secure, responsive, and fast-performing user experience.'
     ],
     icon: <Smartphone className="text-indigo-400 w-6 h-6" />,
-    image: '/images/ecommerce.png',
+    image: `${process.env.PUBLIC_URL}/images/ecommerce.png`,
   },
 ];
 

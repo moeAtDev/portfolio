@@ -19,7 +19,8 @@ const Hero = () => {
 
           {/* Image */}
           <img
-            src="/mohammedAtieh.png"
+            src=
+            {`${process.env.PUBLIC_URL}/mohammedAtieh.png`}
             alt="Mohammad Atieh"
             className="w-full h-72 object-cover transition-transform duration-500 group-hover:translate-y-full"
           />
@@ -61,7 +62,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="/MohammedAtieh_Resume.pdf" // Make sure this file is placed in public/
+            href= {`${process.env.PUBLIC_URL}/MohammedAtieh_Resume.pdf`}// Make sure this file is placed in public/
             download
             className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full font-semibold shadow-lg border border-indigo-800 transition-transform transform hover:scale-105"
           >
