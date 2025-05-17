@@ -13,20 +13,20 @@ const Contact = () => {
           Interested in collaborating or have a question? Feel free to reach out to me!
         </p>
 
-        <div className="flex justify-center sm:justify-start space-x-12">
-          <div className="flex items-center gap-3">
+       <div className="flex flex-col sm:flex-row justify-center sm:justify-start space-y-6 sm:space-y-0 sm:space-x-12">
+          <div className="flex items-center gap-3 justify-center sm:justify-start">
             <Phone className="w-6 h-6 text-indigo-500" />
             <span className="text-lg">(403) 988-3343</span>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 justify-center sm:justify-start">
             <Mail className="w-6 h-6 text-indigo-500" />
             <a href="mailto:mohammedatiehdev@gmail.com" className="text-lg hover:underline">
-            mohammedatiehdev@gmail.com
+              mohammedatiehdev@gmail.com
             </a>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 justify-center sm:justify-start">
             <Linkedin className="w-6 h-6 text-indigo-500" />
             <a
               href="https://www.linkedin.com/in/mohammed-atiehh"
@@ -38,6 +38,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
+
       </div>
     </section>
   );
