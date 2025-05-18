@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 bg-[length:200%_200%] animate-gradient-x">
-      <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <nav className="mx-auto mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <h1 className="text-xl font-bold text-white animate-pulse">Mohammad Atieh</h1>
 
