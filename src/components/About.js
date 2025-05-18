@@ -4,7 +4,7 @@ import { Briefcase, GraduationCap, Smartphone } from 'lucide-react';
 
 const About = () => {
   return (
-    <section id="about" className="bg-gray-950 text-gray-100 px-6 py-20">
+    <section id="about" className="bg-gray-900 text-gray-100 px-6 py-20">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-indigo-500 text-center mb-12">About Me</h2>
 
